@@ -1,3 +1,3 @@
 #!/bin/sh
 #!/bin/bash
-echo 'SECRET_ID='${{ secrets.SECRET_ID }} >> .env
+echo 'HELLO_WORLD='${{ secrets.HELLO_WORLD }} >> .env
